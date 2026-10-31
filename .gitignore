@@ -1,0 +1,51 @@
+# Node.js Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Production Builds
+frontend/dist/
+dist/
+build/
+target/
+backend-java/target/
+.vite/
+frontend/.vite/
+
+# Test Coverage Reports
+coverage/
+backend/coverage/
+frontend/coverage/
+
+# SonarQube Scanner Artifacts
+.scannerwork/
+.sonar/
+
+# Release Artifacts
+release-metadata/
+
+# Environment and Secret Files
+.env
+*.env.local
+*.env.*.local
+
+# SQLite Database Runtime Files
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
